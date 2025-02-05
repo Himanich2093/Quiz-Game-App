@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+ <html lang=""en>
+    <head>
+        <meta charset=" UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DSA Trivia Challenge</title>
+        <link  rel="stylesheet" href="style.css">
+        
+        <!--script src="https://www.flaticon.com/icon-fonts-most-downloaded?weight=thin&type=uicon"
+        'https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        <script src="https://kit.fontawesome.com/a076d053399.js">  </script>-->
+        <script src="https://kit.fontawesome.com/04848618ee.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--Start Quiz Button-->
+        <div class="start_btn"><button>Start Quiz</button></div>
+
+        <!--Information Box-->
+        <div class="info_box">
+            <div class="info_title">
+                <span>Some Rules of this Quiz</span>
+            </div>
+            <div class ="info_list">
+                <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+                <div class="info">2. Once you select your answer, it can't be undone.</div>
+                <div class="info">3. You can't select any option once time goes off.</div>
+                <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+                <div class="info">5. You'll get points on the basis of your correct answers.</div>
+            </div>
+            <div class="buttons">
+                <button class="quit">Exit Quiz</button>
+                <button class="restart">Continue</button>
+            </div>
+        </div>
+
+        <!--Quiz Box-->
+        <div class="quiz_box">
+            <header>
+                <div class="title">DSA Trivia Quiz Challenge</div>
+                <div class="timer">
+                    <div class="time_text">Time Left</div>
+                    <div class="timer_sec">15</div>
+                </div>
+            </header>
+            <section>
+                <div class="que_text">
+                    <!--Question Text-->
+                    <!--<span>What does DSA stand for in computer science? </span>-->
+                </div>
+                <div class="option_list">
+                    <!--Option List-->
+                    <div class="option">
+                        <span>A. Data System Analysis</span>
+                        <!--<i class="fas fa-check"></i></div>-->
+                        <!--<i class="fa-solid fa-tick"></i>-->
+                        <div class="icon tick">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                    </div>
+
+                     <div class="option">
+                        <span>B. Data Structures and Algorithms</span>
+                       <!---<i class="fas fa-times"></i></div>
+                       <i class="fa-solid fa-cross"></i>--> 
+                       <div class="icon cross">
+                            <i class="fa-solid fa-x"></i>
+                       </div>
+                    </div>
+
+                    <div class="option">
+                        <span>C. Digital Software Architecture</span>
+                    </div>
+
+                    <div class="option">
+                        <span>D. Dynamic System Allocation</span>
+                    </div>
+
+                </div>
+            </section>
+
+         <!--Quiz Box Footer-->
+            <footer>
+                <div class="total_que">
+                    <span><p>2</p>of<p>5</p>Questions</span>
+                
+                </div>
+                <button class="next_btn">Next Question</button>
+            </footer>
+        </div>
+
+        <!--Result Box-->
+        <div class="result_box">
+            <div class="icon">
+                <i class="fa-solid fa-crown"></i>
+            </div>
+            <div class="complete_text">You've completed the Quiz!</div>
+            <div class="score-text">
+                <span>Sorry to say, You got only <p>2</p> out of <p>5</p> correct </span>
+            </div>
+            <div class="buttons">
+                <button class="restart">Replay Quiz</button>
+                <button class="quit">Quit Quiz</bullltton>
+            </div>
+        </div>
+        
+        <script src="js/questions.js"></script>
+        <script src="js/script.js">    </script>    
+    
+            
+ </body>
+ </html>                                                                                                                                              
